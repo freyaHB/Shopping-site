@@ -2,7 +2,16 @@
 {% extends 'base.html' %}
 
 {% block body %}
-
+<br>
+{{ melons_in_cart }} 
+<br>
+{{ quantity }}
+<br>
+{{ total_cost }}
+<br>
+{{ order_total_cost }} 
+{{ melon.quantity }}      
+<br>
     <table class="table table-striped">
         <thead>
         <tr>
@@ -14,6 +23,7 @@
         </thead>
         <tbody>
         <tr>
+            
             <td>Ancient Watermelon</td>
             <td>5</td>
             <td>$3.00</td>
